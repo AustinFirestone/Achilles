@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		73588DA62C20C8C700BEEB46 /* AchillesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73588DA52C20C8C700BEEB46 /* AchillesApp.swift */; };
-		73588DA82C20C8C700BEEB46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73588DA72C20C8C700BEEB46 /* ContentView.swift */; };
+		73588DA82C20C8C700BEEB46 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73588DA72C20C8C700BEEB46 /* MainView.swift */; };
 		73588DAA2C20C8C800BEEB46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73588DA92C20C8C800BEEB46 /* Assets.xcassets */; };
 		73588DAD2C20C8C800BEEB46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73588DAC2C20C8C800BEEB46 /* Preview Assets.xcassets */; };
+		73588DB42C20C9BD00BEEB46 /* NutritionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73588DB32C20C9BD00BEEB46 /* NutritionView.swift */; };
+		73588DB62C20C9CD00BEEB46 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73588DB52C20C9CD00BEEB46 /* WorkoutView.swift */; };
+		73588DB82C20C9E500BEEB46 /* InsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73588DB72C20C9E500BEEB46 /* InsightsView.swift */; };
+		73588DBA2C20CB0200BEEB46 /* WaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73588DB92C20CB0200BEEB46 /* WaterView.swift */; };
+		73588DBC2C20CB0B00BEEB46 /* SleepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73588DBB2C20CB0B00BEEB46 /* SleepView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		73588DA22C20C8C700BEEB46 /* Achilles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Achilles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73588DA52C20C8C700BEEB46 /* AchillesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchillesApp.swift; sourceTree = "<group>"; };
-		73588DA72C20C8C700BEEB46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		73588DA72C20C8C700BEEB46 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		73588DA92C20C8C800BEEB46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73588DAC2C20C8C800BEEB46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		73588DB32C20C9BD00BEEB46 /* NutritionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionView.swift; sourceTree = "<group>"; };
+		73588DB52C20C9CD00BEEB46 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		73588DB72C20C9E500BEEB46 /* InsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsView.swift; sourceTree = "<group>"; };
+		73588DB92C20CB0200BEEB46 /* WaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterView.swift; sourceTree = "<group>"; };
+		73588DBB2C20CB0B00BEEB46 /* SleepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +62,12 @@
 			isa = PBXGroup;
 			children = (
 				73588DA52C20C8C700BEEB46 /* AchillesApp.swift */,
-				73588DA72C20C8C700BEEB46 /* ContentView.swift */,
+				73588DA72C20C8C700BEEB46 /* MainView.swift */,
+				73588DB72C20C9E500BEEB46 /* InsightsView.swift */,
+				73588DB32C20C9BD00BEEB46 /* NutritionView.swift */,
+				73588DB92C20CB0200BEEB46 /* WaterView.swift */,
+				73588DBB2C20CB0B00BEEB46 /* SleepView.swift */,
+				73588DB52C20C9CD00BEEB46 /* WorkoutView.swift */,
 				73588DA92C20C8C800BEEB46 /* Assets.xcassets */,
 				73588DAB2C20C8C800BEEB46 /* Preview Content */,
 			);
@@ -137,7 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73588DA82C20C8C700BEEB46 /* ContentView.swift in Sources */,
+				73588DB42C20C9BD00BEEB46 /* NutritionView.swift in Sources */,
+				73588DBC2C20CB0B00BEEB46 /* SleepView.swift in Sources */,
+				73588DB82C20C9E500BEEB46 /* InsightsView.swift in Sources */,
+				73588DA82C20C8C700BEEB46 /* MainView.swift in Sources */,
+				73588DB62C20C9CD00BEEB46 /* WorkoutView.swift in Sources */,
+				73588DBA2C20CB0200BEEB46 /* WaterView.swift in Sources */,
 				73588DA62C20C8C700BEEB46 /* AchillesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
