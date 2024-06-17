@@ -11,13 +11,17 @@ struct MainView: View {
     //@State private var classes: [Class] = []
     @Environment(\.scenePhase) private var scenePhase
     //@State private var selectedTab: Int = 1 // Default to HomeView
-
+    @State private var isShowingStandardSheet = false
+    
     var body: some View {
         VStack{
             HStack{
                 Text("Achilles")
                     .font(.title)
                 Image(systemName: "figure.archery")
+            }
+            .onTapGesture {
+                isShowingStandardSheet = true
             }
             TabView() {
                 InsightsView()
@@ -76,6 +80,35 @@ struct MainView: View {
             .onChange(of: scenePhase) { phase in
                 if phase == .inactive { saveClasses() }
             }
+        }
+        .sheet(isPresented: $isShowingStandardSheet) {
+            Text("THE STANDARD")
+                .font(.largeTitle)
+                .underline()
+                .padding()
+            Text("Find balance - Mind, Body, Spirit")
+                .font(.headline)
+                .padding()
+            Text("Run - Swim - Fight - Lift")
+            Text("""
+                 
+                 
+                 Nutrition: Eat for performance
+                 
+                 Hydration: 1 gallon a day
+                 
+                 Sleep: 6 hours with consistent sleep/wake
+                 
+                 Train: Run 5 days a week, Lift 4 days a week, Figth 3 days a week, Swim 2 days a week, Stretch every day
+                 
+                 """)
+            .font(.subheadline)
+            .padding()
+            Image(systemName: "figure.arms.open")
+                .resizable()
+                .scaledToFit()
+            
+            Spacer()
         }
     }
 
