@@ -46,6 +46,7 @@
 		73588D992C20C8C600BEEB46 = {
 			isa = PBXGroup;
 			children = (
+				739837732CB309B600D95322 /* Readme.md */,
 				73588DA42C20C8C700BEEB46 /* Achilles */,
 				73588DA32C20C8C700BEEB46 /* Products */,
 			);
@@ -62,7 +63,6 @@
 		73588DA42C20C8C700BEEB46 /* Achilles */ = {
 			isa = PBXGroup;
 			children = (
-				739837732CB309B600D95322 /* Readme.md */,
 				73588DA52C20C8C700BEEB46 /* AchillesApp.swift */,
 				73588DA72C20C8C700BEEB46 /* MainView.swift */,
 				73588DB72C20C9E500BEEB46 /* InsightsView.swift */,
