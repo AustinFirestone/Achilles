@@ -29,6 +29,7 @@
 		73588DB72C20C9E500BEEB46 /* InsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsView.swift; sourceTree = "<group>"; };
 		73588DB92C20CB0200BEEB46 /* WaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterView.swift; sourceTree = "<group>"; };
 		73588DBB2C20CB0B00BEEB46 /* SleepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepView.swift; sourceTree = "<group>"; };
+		739837732CB309B600D95322 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +62,7 @@
 		73588DA42C20C8C700BEEB46 /* Achilles */ = {
 			isa = PBXGroup;
 			children = (
+				739837732CB309B600D95322 /* Readme.md */,
 				73588DA52C20C8C700BEEB46 /* AchillesApp.swift */,
 				73588DA72C20C8C700BEEB46 /* MainView.swift */,
 				73588DB72C20C9E500BEEB46 /* InsightsView.swift */,
